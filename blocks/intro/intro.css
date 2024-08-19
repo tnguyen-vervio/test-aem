@@ -1,0 +1,23 @@
+
+main > .section > div.intro-wrapper {
+    margin: 0 !important;
+    background-color: #F2F2F1;
+    max-width: none !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 0 1rem;
+  }
+  main > .section > div.intro-wrapper .intro.block {
+    max-width: 720px;
+  }
+  main > .section > div.intro-wrapper h1, main > .section > div.intro-wrapper h2, main > .section > div.intro-wrapper h3, main > .section > div.intro-wrapper h4, main > .section > div.intro-wrapper h5, main > .section > div.intro-wrapper h6, main > .section > div.intro-wrapper h7 {
+    font-size: 38px;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  @media (width >= 720px) {
+    main > .section > div.intro-wrapper {
+      padding: 4rem 0;
+    }
+  }

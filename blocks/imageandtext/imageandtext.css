@@ -1,0 +1,14 @@
+.imageandtext-wrapper .imageandtext.block > div {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .imageandtext-wrapper .imageandtext.block > div .imageandtext-wrapper-img-col img {
+    border-radius: 12px;
+  }
+  @media (width >= 720px) {
+    .imageandtext-wrapper .imageandtext.block > div {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }

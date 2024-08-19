@@ -4,6 +4,7 @@
 }
 
 .columns img {
+    border-radius: 12px;
   width: 100%;
 }
 
@@ -21,7 +22,7 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
+    align-items: unset;
     flex-direction: unset;
     gap: 24px;
   }
@@ -30,4 +31,11 @@
     flex: 1;
     order: unset;
   }
+}
+
+.columns-wrapper .button-container a {
+    color: red;
+    border: none;
+    padding: 0;
+    margin: 20px 0;
 }
