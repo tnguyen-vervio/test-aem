@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.hlx.page/
-- Live: https://main--{repo}--{owner}.hlx.live/
+- Preview: https://main--test-aem--tnguyen-vervio.hlx.page/
+- Live: https://main--test-aem--tnguyen-vervio.hlx.live/
 
 ## Installation
 
